@@ -18,6 +18,6 @@ First of all you need to set up inside your css the following root value:
 ```
 ### Setup Global CSS variables
 To use this generator you need to setup 3 global variables
-**--min-page-width:** 32rem-> This represent the minimum viewport size express in rem
-**--page-width-val:** 128 -> This represent the pagination width of your pages
-**--min-page-width-val:** 32; -> This represent the minumum width pagination width of your pages
+1. **--min-page-width:** 32rem-> This represent the minimum viewport size express in rem
+2. **--page-width-val:** 128 -> This represent the pagination width of your pages
+3. **--min-page-width-val:** 32; -> This represent the minumum width pagination width of your pages
