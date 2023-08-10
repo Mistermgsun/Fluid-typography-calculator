@@ -10,9 +10,9 @@ Fluid typography are based on "REM" and not "PIXEL". Generally in html a "1rem" 
  
 ## Setup
 ### Change the default REM values
-First of all you need to set up inside your css the following root value:
+First of all you need to set up inside your css file the following html value:
 ```css
-:root{
+:html {
   font-size: 62.5%; //This allow us to set 1rem equal to 10px
 }
 ```
@@ -26,3 +26,32 @@ To use this generator you need to setup 3 global variables
 }
 ```
 > :warning: The first variable **--min-page-width** and the last variable **--min-page-width-val** must have the same value
+
+## How to use
+To use the calculator, simply download the html file and click on it. Once the file is opened in your browser, just enter the values ​​in the two input fields and copy the results using the appropriate button.
+
+## Examples
+Imagine you want a layout of 1280px and you want to get a responsive paragraph that starts resizing from 1280px to a minimum of 320px.
+In this case you want a paragraph that have a maximum size of 16px and a minimum size to 12px.
+> :warning: Remember 16px is equal to 1.6rem
+> :warning: Remember 12px is equal to 1.2rem
+
+#### Setup
+```css
+:root{
+  --min-page-width: 32rem; 
+  --page-width-val: 128;
+  --min-page-width-val: 32; 
+}
+html{
+  font-size: 62.5%;
+}
+```
+#### Configurator
+
+#### Paragraph style CSS
+```css
+p{
+  font-size: clamp(1.2rem, calc(1.2rem + (1.6 - 1.2) * ((100vw - var(--min-page-width)) / (var(--page-width-val) - var(--min-page-width-val)))), 1.6rem);
+}
+```
