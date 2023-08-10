@@ -1,4 +1,4 @@
-# Fluid-typography-calculator
+# Fluid Typography Calculator
 This generator allows you to create scalable fluid fonts using global css variables. With this system you will no longer have to worry about changing the width of your project's pages. In fact with this generator you will be able to readjust your "font-size formulas" by simply changing the values ​​of your global variables.
 
 ## What is Fluid Typography
