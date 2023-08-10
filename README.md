@@ -9,14 +9,14 @@ Fluid typography starts with a minimum value and increases it as the screen widt
 Fluid typography are based on "REM" and not "PIXEL". Generally in html a "1rem" is equal to "16px". But the aspect ratio can be changed by changing the font-size value within the ":root" css selector.
  
 ## Setup
-### Setup REM
+### Change the default REM values
 First of all you need to set up inside your css the following root value:
 ```css
 :root{
   font-size: 62.5%; //This allow us to set 1rem equal to 10px
 }
 ```
-### Setup Global variables
+### Setup Global CSS variables
 To use this generator you need to setup 3 global variables
 * --min-page-width: 32rem; -> This represent the minimum viewport size express in rem
 * --page-width-val:128; -> This represent the pagination width of your pages
