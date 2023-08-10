@@ -25,4 +25,4 @@ To use this generator you need to setup 3 global variables
   --min-page-width-val: 32; //This variable represent the minimum width and the target to finish the font-size scaling
 }
 ```
-> :warning: **!important**: The first variable **--min-page-width** and the last variable **--min-page-width-val** must have the same value
+> :warning: The first variable **--min-page-width** and the last variable **--min-page-width-val** must have the same value
