@@ -30,7 +30,7 @@ To use this generator you need to setup 3 global variables
 ## How to use
 To use the calculator, simply download the html file and click on it. Once the file is opened in your browser, just enter the values ​​in the two input fields and copy the results using the appropriate button.
 
-## Examples
+## Example
 Imagine you want a layout of 1280px and you want to get a responsive paragraph that starts resizing from 1280px to a minimum of 320px.
 In this case you want a paragraph that have a maximum size of 16px and a minimum size to 12px.
 > :warning: Remember 16px is equal to 1.6rem
