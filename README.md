@@ -47,7 +47,8 @@ html{
   font-size: 62.5%;
 }
 ```
-#### Configurator
+#### Fluid Typography Calculator settings
+![Cattura](https://github.com/jacopo-degattis/esc/assets/60223467/169a7814-2d1b-4336-89d3-12cb725c457c)
 
 #### Paragraph style CSS
 ```css
