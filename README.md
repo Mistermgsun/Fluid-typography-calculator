@@ -18,6 +18,11 @@ First of all you need to set up inside your css the following root value:
 ```
 ### Setup Global CSS variables
 To use this generator you need to setup 3 global variables
-1. **--min-page-width:** 32rem-> This represent the minimum viewport size express in rem
-2. **--page-width-val:** 128 -> This represent the pagination width of your pages
-3. **--min-page-width-val:** 32; -> This represent the minumum width pagination width of your pages
+```css
+:root{
+  --min-page-width: 32rem; //This variable represent the minimum viewport of your project
+  --page-width-val: 128; //This variable represent your project's pages width and the target to start the font-size scaling
+  --min-page-width-val: 32; //This variable represent the minimum width and the target to finish the font-size scaling
+}
+```
+> :warning: **!important**: The first variable **--min-page-width** and the last variable **--min-page-width-val** must have the same value
