@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fluid Typography Calculator</title>
+  </head>
+
+  <body>
+    <h1>Fluid-responsive font-size calculator</h1>
+
+    <form target="frame">
+      <p>Define variable viewport</p>
+      <label for="fname">Min page width rem:</label>
+      <input
+        id="minpagewidth"
+        name="Min page width"
+        type="text"
+        value="--min-page-width"
+        data-allownegative=""
+        required=""
+      /><br /><br />
+
+      <label for="fname">Page width value:</label>
+      <input
+        id="pagewidthvalue"
+        name="Page width value"
+        type="text"
+        value="--page-width-val"
+        data-allownegative=""
+        required=""
+      /><br /><br />
+      <label for="fname">Min page width value:</label>
+      <input
+        id="minpagewidthvalue"
+        name="Min page width value"
+        type="text"
+        value="--min-page-width-val"
+        data-allownegative=""
+        required=""
+      /><br /><br />
+
+      <p>Define font value</p>
+      <label for="lname">Max font-size value:</label>
+      <input
+        id="fontmax"
+        name="font-max"
+        type="number"
+        step="0.1"
+      /><br /><br />
+      <label for="lname">Min font-size value:</label>
+      <input
+        id="fontmin"
+        name="font-min"
+        type="number"
+        step="0.1"
+      /><br /><br />
+
+      <p>Formula result</p>
+      <p id="result"></p>
+    </form>
+
+    <button onclick="getFormula()">Copy value</button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
